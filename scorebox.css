@@ -1,0 +1,137 @@
+#scorebox1{
+    background:linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#scorebox2{
+    background-color:rgb(249, 249, 249);
+    height: 550px;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#circle{
+    border-radius: 50%;
+    background:linear-gradient(  hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+#all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:150px;
+    margin-bottom: 150px;
+
+}
+.body{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+}
+#reaction{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color: hsla(323, 92%, 54%, 0.31);
+    margin-left: 30px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.symbol1{
+    margin-left: 10px;
+}
+#memory{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color:hsla(57, 72%, 65%, 0.351);
+    margin-left: 30px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.symbol2{
+    margin-left:10px;
+}
+
+#verbal{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color: hsla(157, 84%, 43%, 0.32);
+    margin-left: 30px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+.symbol3{
+    margin-left: 10px;
+}
+#visual{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color: hsla(264, 96%, 67%, 0.508);
+    margin-left: 30px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.symbol4{
+    margin-left: 10px;
+}
+#scoresheet{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: size 40px;
+    padding: 10px;
+    align-content: space-around;
+    margin-bottom: 10px;
+    margin-left: 8px;
+
+    
+}
+#score100{
+    line-height:1;
+    font-size: 40px;
+    color: antiquewhite;
+    margin-bottom: -30px;
+
+}
+#of100{
+    margin-top: -40px;
+    
+}
+#circle2{
+    text-align: center;
+}
+#continue{
+    height:60px ;
+    width: 275px;
+    border-radius: 25px;
+    background-color: rgb(5, 2, 36);
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+#result{
+    text-align: center;
+}
